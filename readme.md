@@ -52,3 +52,12 @@ This project is designed for educational purposes as part of a comprehensive You
 ## License
 
 This Crew AI Autonomous Agents Tutorial project is released under the [MIT License](https://opensource.org/licenses/MIT).
+
+
+## Planning and Architecture
+1. define the inputs and the data schema of the inputs
+2. define the output and the data schema of the output
+3. identify all major etl phases and create tasks for them
+4. all tasks require a class definition that provides the set of actions to perform. Some examples of tasks are very broad, like 'Research' or 'Analyze Industry'.
+5. It is possible to manually pass data between agents using shared global data structures. You can also pass data into tasks when calling them.
+6. a more scalable approach is to use a database or files

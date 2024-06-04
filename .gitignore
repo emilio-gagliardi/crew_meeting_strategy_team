@@ -1,1 +1,9 @@
 .env
+
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+src/crewai_meeting_strategy_team.code-workspace
+
+.vscode/
